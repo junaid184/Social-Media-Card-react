@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}@font-face{
+    font-family: f;
+    src:url("q.ttf");
 }
+body{
+    background:#d3d3d347;
+    font-family: f;
+    color:#000000d1;
+}.post{
+    margin: auto;
+width: 500px;
+border-radius: 10px;
+background: white;
+}  .head{
+    display: flex;
+    border-radius:10px;
+    padding: 15px;
+    background: white;
+    align-items: center;
+    justify-content: space-between;
+}.avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+}.name_profile{
+    display: flex;
+    align-items: center;
+}.q{
+    margin-left: 10px;
+}.q p{
+    color:grey;
+    font-size: 13px;
+}.svg{
+    height: 23px;
+    width: 23px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+}.body{
+    padding-left: 15px;
+    padding-right: 15px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+}.body p{
+    font-size: 14px;
+}.post_image{
+    margin:auto;
+    height: 250px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+}.btm_icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}.left_icon{
+    margin-left: 10px;
+    margin-top:15px;
+}.margin{
+    margin-left: 15px;
+}.right_icon{margin-top:15px;
 
-.App-link {
-  color: #61dafb;
-}
+}form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}.ico{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}.in{
+    background: transparent;
+    border:none;
+    outline: none;
+    margin-left: 15px;
+
+}.flex{
+    display: flex;
+    align-items: center;
+
+}form{
+    background: #d3d3d347;
+border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top:20px;
 }
